@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مصاريفك</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="loading d-flex  justify-content-center align-items-center">
+        <div class="contante">
+            <img class="image" src="logo.png" alt="error">
+            <h2 class="logo-text" style="color: #198754;">اعرف فلوسك رايحة فين</h2>
+        </div>
+    </div>
+    <div class="main">
+        <nav class="navbar navbar-expand-lg sticky-top">
+            <div class="container">
+                <img src="logo.png" alt="">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa-solid fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                    <a class="nav-link p-lg-3 activee" href="#">التقارير</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link  p-lg-3" href="#services">شهر جديد</a>
+                    </li>
+                    <li class="nav-item" id="sittings-btn">
+                        <button class="nav-link   p-lg-3">الاعدادات</button>
+                    </li>
+                </div>
+            </div>
+        </nav>
+        <!-- <div class="section-one">
+            <img src="istockphoto-962610572-612x612-1.jpg" alt="">
+        </div> -->
+        <div class="section-two pt-5">
+            <div class="icons-container pt-4 pb-4 gap-5">
+                <span><i class="fa-solid fa-utensils"></i></span>
+                <span><i class="fa-solid fa-car-side"></i></span>
+                <span><i class="fa-regular fa-rectangle-list"></i></span>
+            </div>
+            <div class="content pt-4 pb-4">
+                <h2 style="color: #198754;">الراتب: <span id="ratibsapn" style="color: black;">0</span></h2>
+                <h2 style="color: #198754;">الحصالة: <span id="hsalaspan" style="color: black;">0</span></h2>
+                <button class="new btn btn-danger">شهر جديد</button>
+            </div>
+        </div>
+        <div class="footer pt-4 pb-4 gap-5" style="background-color: #198754;">
+            <span id="sittingsBtn"><i class="fa-solid fa-gear"></i></span>
+            <span id="openadd"><i class="fa-solid fa-plus"></i></span>
+            <span id="tqarirBtn"><i class="fa-solid fa-signal"></i></span>
+        </div>
+        <div class="sittings">
+            <button class="closeBtn"><i class="fs-1 fa-solid fa-gear fa-spin"></i></button>
+            <div class="sittings-box pt-3 pb-3">
+                <h2 style="color: #198754;">الوضع الليلي</h2>
+                <button class="yes fs-3 btn btn-primary">تفعيل</button>
+                <button class="no fs-3 btn btn-primary">ايقاف</button>
+            </div>
+            <div class="sittings-box pt-3 pb-3">
+                <h2 style="color: #198754;">ممعلومات عن التطبيق</h2>
+                <button class="know fs-3 btn btn-primary">معرفة المزيد</button>
+            </div>
+            <div class="sittings-box pt-3 pb-3">
+                <h2 style="color: #198754;">مطور التطبيق</h2>
+                <a href="https://mahmoudhisham565.github.io/mahmoud-hisham/" class="fs-3 btn btn-primary" target="_blank">معرفة المزيد</a>
+            </div>
+            <div class="info p-3">
+                <button class="x" style="background-color: #b7b5b5;"><i class="fs-2 fa-solid fa-xmark"></i></button>
+                <h2>تطبيق مصاريفك</h2>
+                <p class="text-black-50">تطبيق عربي يساعدك في وضع ميزانية شهرية لمعرفة مصاريفك الشهرية </p>
+            </div>
+        </div>
+        <div class="add">
+            <button class="xadd"><i class="fs-2 fa-solid fa-xmark"></i></button>
+            <div class="sllary pt-3 pb-3">
+                <div class="ratibDiv">
+                    <span>الراتب:</span>
+                    <input type="text" id="ratib">
+                </div>
+                <div class="hsalaDiv mt-3">
+                    <span>الحصالة:</span>
+                    <input type="text" id="hsala">
+                </div>
+                <div class="tsgilBtn mt-3">
+                    <input type="submit" value="تسجيل" id="submit" class="btn btn-primary">
+                </div>
+            </div>
+            <div class="sllaryout pt-3 pb-3">
+                <div class="car">
+                    <span>المواصلات</span>
+                <input type="number" id="car" class="input p-1" style="border-radius:8px; outline:none; border:none">
+                </div>
+                
+                <div class="fwatire mt-3">
+                    <span>الفواتير</span>
+                <input type="number" id="eat" class="input p-1" style="border-radius:8px; outline:none; border:none">
+                </div>
+                <div class="food mt-3">
+                    <span>الطعام</span>
+                    <input type="number" id="lists" class="input p-1" style="border-radius:8px; outline:none; border:none">
+                </div>
+                <div class="dafaaDiv mt-3">
+                    <input type="submit" value="دفع" id="dafaa" class="btn btn-primary">
+                </div>
+                
+            </div>
+            
+        </div>
+        <div class="tqarirDiv">
+            <div class="container contaienrDiv pt-3 pb-3">
+                <button class="xbutton"><i class="fa-solid fa-x"></i></button>
+                <div class="msarif mb-3">
+                    <span>ملاحظات:</span>
+                    <input type="text" id="msarifAdafi">
+                </div>
+                <div class="msarif mb-3">
+                    <span>مصارف اضافية:</span>
+                    <input type="text" id="hintInbut">
+                </div>
+                <div class="adfiBtn pb-3">
+                    <input type="submit" value="دفع" id="msarifBtn" class="btn btn-primary">
+                </div>  
+            <div class="container hintDiv">
+                
+            </div>
+    </div>
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/all.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
